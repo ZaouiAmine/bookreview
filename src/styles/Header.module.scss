@@ -1,0 +1,80 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 0;
+  flex-wrap: wrap;
+}
+
+// logo
+.logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $purple;
+}
+.logo span {
+  color: $green;
+}
+// search
+.wrapper {
+  width: 50%;
+  position: relative;
+  min-width: 400px;
+}
+
+.input {
+  width: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  padding: 0.75em 1.5em;
+  background-color: $hue;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+.input::placeholder {
+  color: $dimmed-purple;
+}
+@media all and (max-width: 733px) {
+  .wrapper {
+    order: 3;
+    min-width: 100%;
+    margin: 1em 0;
+  }
+}
+
+.btn {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  border: none;
+  padding: 0.5em;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #dbdbda;
+}
+// profile settings
+.profile_settings {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.heart,
+.profile,
+.language {
+  margin-left: 1rem;
+}
+.language {
+  font-family: "Merriweather", serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
