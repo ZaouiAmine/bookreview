@@ -1,0 +1,37 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  color: $dimmed-purple;
+  padding: 1em;
+
+  font-size: 1rem;
+}
+.nav a:hover {
+  color: $purple;
+}
+
+.activeStyle {
+  border-bottom: 1px solid $green;
+}
+@media all and (max-width: 550px) {
+  .nav {
+    width: 100%;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav li {
+    margin: 1em;
+  }
+}

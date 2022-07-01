@@ -1,0 +1,53 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  min-width: 340px;
+  width: 340px;
+  margin: 3em 1.5em 2em;
+  border: 1px solid #b4d51e;
+  border-radius: 10px;
+  padding: 3em 1em;
+  -webkit-box-shadow: 0 0 15px 1px rgba(78, 78, 78, 0.144);
+          box-shadow: 0 0 15px 1px rgba(78, 78, 78, 0.144);
+}
+
+.img {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: -10px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.comma {
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+
+.name {
+  font-family: "Merriweather", serif;
+  font-size: 0.75rem;
+  margin-bottom: 1em;
+}
+
+.testamony {
+  font-size: 0.75rem;
+  font-family: "McLaren", cursive;
+  text-align: center;
+  color: rgba(70, 60, 116, 0.5);
+}
+/*# sourceMappingURL=Testamony.module.css.map */

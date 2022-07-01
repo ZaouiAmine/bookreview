@@ -13,6 +13,12 @@
       flex-wrap: wrap;
 }
 
+@media all and (max-width: 550px) {
+  .container {
+    margin: 2em 0;
+  }
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: 400;
@@ -94,6 +100,13 @@
           justify-content: end;
 }
 
+@media all and (max-width: 550px) {
+  .profile_settings {
+    width: 100%;
+    margin: 1em 0;
+  }
+}
+
 .heart,
 .profile,
 .language {
@@ -104,5 +117,62 @@
   font-family: "Merriweather", serif;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+.hamBtn {
+  background-color: transparent;
+  border: none;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.slice {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #463c74;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.slice1rotation {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.slice3rotation {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.slice2gone {
+  -webkit-transition-duration: 0ms;
+          transition-duration: 0ms;
+  visibility: hidden;
+}
+
+@media all and (min-width: 550px) {
+  .hamBtn {
+    display: none;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .hide {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,96 @@
+$pink: #fbf4e2;
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.all {
+  max-width: 1200px;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 1em;
+  background-color: $pink;
+}
+
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+}
+.right {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: $purple;
+  margin: 0.5em 0;
+  span {
+    color: $green;
+  }
+}
+.subLogo {
+  color: $dimmed-purple;
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-family: "Merriweather", serif;
+}
+
+.nav {
+  font-family: "Merriweather", serif;
+  list-style-type: none;
+  margin: 1em 0;
+  .mainNavItem {
+    column-rule: black;
+    margin: 1em 0;
+    font-size: 1.25rem;
+  }
+  .navItem {
+    margin: 1em 0;
+    color: $dimmed-purple;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+.copyright {
+  font-family: "Merriweather", serif;
+  color: $dimmed-purple;
+  font-size: 1rem;
+}
+
+.fb,
+.ig {
+  margin: 0.25em;
+}
+
+@media all and (max-width: 768px) {
+  .up {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

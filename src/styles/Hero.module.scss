@@ -1,0 +1,45 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("../assets//hero/bg.png");
+  background-size: cover;
+  border-radius: 70px;
+  margin: 1.5em 0;
+  padding: 2em;
+}
+
+.mainTitle {
+  font-size: 3rem;
+  margin: 0.5em 0;
+  font-family: "Merriweather", serif;
+  color: $purple;
+}
+
+.subTitle {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn {
+  background-color: $green;
+  padding: 1em 1.5em;
+  margin: 2em 0;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media all and (max-width: 1200px) {
+  .illustration {
+    display: none;
+  }
+}

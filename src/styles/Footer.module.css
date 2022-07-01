@@ -1,0 +1,128 @@
+.all {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5em 1em;
+  background-color: #fbf4e2;
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #463c74;
+  margin: 0.5em 0;
+}
+
+.logo span {
+  color: #b4d51e;
+}
+
+.subLogo {
+  color: rgba(70, 60, 116, 0.5);
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-family: "Merriweather", serif;
+}
+
+.nav {
+  font-family: "Merriweather", serif;
+  list-style-type: none;
+  margin: 1em 0;
+}
+
+.nav .mainNavItem {
+  -webkit-column-rule: black;
+          column-rule: black;
+  margin: 1em 0;
+  font-size: 1.25rem;
+}
+
+.nav .navItem {
+  margin: 1em 0;
+  color: rgba(70, 60, 116, 0.5);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.copyright {
+  font-family: "Merriweather", serif;
+  color: rgba(70, 60, 116, 0.5);
+  font-size: 1rem;
+}
+
+.fb,
+.ig {
+  margin: 0.25em;
+}
+
+@media all and (max-width: 768px) {
+  .up {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=Footer.module.css.map */

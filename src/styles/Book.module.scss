@@ -1,0 +1,50 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.container {
+  width: 16rem;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+}
+.img {
+  align-self: center;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.rating {
+  margin-bottom: 0.5rem;
+}
+.author {
+  font-size: 1rem;
+  font-weight: 200;
+  color: rgb(182, 182, 182);
+  margin-bottom: 0.5rem;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.userName {
+  font-size: 0.75rem;
+  color: rgb(182, 182, 182);
+}
+.date {
+  color: rgb(182, 182, 182);
+  font-size: 0.75rem;
+}

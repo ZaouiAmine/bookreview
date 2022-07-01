@@ -3,4 +3,18 @@
   max-width: 1200px;
   width: 95%;
 }
+
+@media all and (max-width: 550px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.testamonies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  margin: 5em 0;
+}
 /*# sourceMappingURL=Home.module.css.map */

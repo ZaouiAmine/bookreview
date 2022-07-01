@@ -1,0 +1,25 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Merriweather", serif;
+  margin: 2em 0;
+}
+.mainHeading {
+  font-size: 2rem;
+  color: $purple;
+}
+.subHeading {
+  font-size: 1.5rem;
+  color: $dimmed-purple;
+}
+
+.books {
+  display: flex;
+  flex-wrap: nowrap;
+
+  overflow-x: auto;
+}

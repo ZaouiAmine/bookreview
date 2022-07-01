@@ -1,0 +1,48 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url("../assets//hero/bg.png");
+  background-size: cover;
+  border-radius: 70px;
+  margin: 1.5em 0;
+  padding: 2em;
+}
+
+.mainTitle {
+  font-size: 3rem;
+  margin: 0.5em 0;
+  font-family: "Merriweather", serif;
+  color: #463c74;
+}
+
+.subTitle {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #b4d51e;
+  padding: 1em 1.5em;
+  margin: 2em 0;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media all and (max-width: 1200px) {
+  .illustration {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Hero.module.css.map */

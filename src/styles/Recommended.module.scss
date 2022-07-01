@@ -1,0 +1,63 @@
+$purple: #463c74;
+$dimmed-purple: rgba(70, 60, 116, 0.5);
+$green: #b4d51e;
+$hue: #f8f7f5;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/recommended/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 70px;
+  height: 500px;
+  margin: 2em 0;
+}
+.heading {
+  font-size: 3rem;
+  margin: 0.5em 0;
+  font-family: "Merriweather", serif;
+  color: $purple;
+  text-align: center;
+}
+
+.input {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  color: $dimmed-purple;
+  padding: 1em;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  margin: 1em;
+}
+.btn {
+  margin: 1em;
+  background-color: $green;
+  font-family: "Merriweather", serif;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 10px;
+}
+@media all and (max-width: 550px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .input {
+    margin: 0.5em;
+  }
+  .btn {
+    width: 50%;
+    margin: 0.5em;
+  }
+}
