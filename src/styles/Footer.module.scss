@@ -72,6 +72,7 @@ $hue: #f8f7f5;
   font-family: "Merriweather", serif;
   color: $dimmed-purple;
   font-size: 1rem;
+  font-weight: 200;
 }
 
 .fb,
@@ -92,5 +93,8 @@ $hue: #f8f7f5;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .down {
+    flex-direction: column-reverse;
   }
 }

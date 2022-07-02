@@ -91,6 +91,7 @@
   font-family: "Merriweather", serif;
   color: rgba(70, 60, 116, 0.5);
   font-size: 1rem;
+  font-weight: 200;
 }
 
 .fb,
@@ -123,6 +124,12 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 /*# sourceMappingURL=Footer.module.css.map */

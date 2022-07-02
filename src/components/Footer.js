@@ -15,7 +15,7 @@ function Footer() {
               Book<span>review</span>
             </h1>
             <h2 className={Styles.subLogo}>
-              is the best place to review a logo
+              is the best place to review a book.
             </h2>
           </div>
           <div className={Styles.right}>
